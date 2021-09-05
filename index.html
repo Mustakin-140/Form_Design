@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Design</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1 style="text-align:center; color:#fdcb6e;">Southeast University</h1>
+    <h2 style="text-align:center; color:#2d3436;">Student Information Form</h2>
+    <hr>
+    <form action="" method="post">
+        <input type="text" placeholder="Enter Student's Name" required><br><br>
+        <input type="text" placeholder="Enter Father's Name" required>
+        <input type="text" placeholder="Enter Mother's Name" required><br><br>
+        <label for="password">Date of Birth </label>
+          <input type="date"> <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" required>Male
+        <input type="radio" name="gender" required>Female<br><br>
+        <input type="number" placeholder="Enter Student ID" required>
+        <input type="email" placeholder="Enter SEU Mail" required>
+        <input type="password" placeholder="Enter UMS Password" id="password" required><br><br>
+        <label for="blood group" required>Select your blood group</label>
+        <select name="" id="" required>
+          <option value="">A+</option>
+          <option value="">A-</option>
+          <option value="">B+</option>
+          <option value="">B-</option>
+          <option value="">AB+</option>
+          <option value="">AB-</option>
+          <option value="">O+</option>
+          <option value="">O-</option>
+        </select><br><br>
+      <label for="id card"> Insert the image of your student ID card <input type="file" name="" id="" required><br><br>
+      <label for="semester">Enter your current semester <input type="number" min="1" max="14" required><br><br>
+      <label for="department" required>Select for Department</label>
+      <select name="" id="" required>
+        <option value="">CSE</option>
+        <option value="">EEE</option>
+        <option value="">Pharmacy</option>
+        <option value="">Architecture</option>
+        <option value="">Textile</option>
+        <option value="">BBA</option>
+        <option value="">MBA</option>
+        <option value="">Economics</option>
+        <option value="">Bangla</option>
+        <option value="">English</option>
+        <option value="">L.L.B</option>
+        <option value="">L.L.M</option>
+      </select><br><br>
+      <label for="description" optional>Description</label>
+      <textarea name="" id="" cols="50" rows="10"></textarea><br><br>
+      <button type="submit" style="color:#0984e3;">Submit</button>
+
+    </form>
+    </body>
+
+</html>
